@@ -1,0 +1,28 @@
+.stats-list{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+}
+
+.stats-list li{
+    display: block;
+    margin-right: 10px;
+}
+
+.stats-list p{
+    margin: 0;
+    padding: 0;
+}
+
+.stats-list input{
+    font-size:medium;
+}
+
+.generation-button{
+    align-self: center;
+    font-size: medium;
+}
