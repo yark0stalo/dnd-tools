@@ -8,21 +8,53 @@
     margin-bottom: 15px;
 }
 
-.stats-list li{
-    display: block;
+.stat-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     margin-right: 10px;
+    margin-bottom: 10px;
+    max-width: 320px;
+    border: 1px solid black;
+    background-color: darkgray;
+    border-radius: 10px;
+    padding: 10px;
 }
 
-.stats-list p{
+.reroll-dice-img{
+    width: 20px;
+    height: 20px;
+    vertical-align:top;
+}
+
+
+.stat-name{
+    font-size: large;
+    align-self: center;
     margin: 0;
     padding: 0;
+    margin-bottom: 5px;
 }
 
-.stats-list input{
+.stat-field{
+    max-width: 150px;
     font-size:medium;
+    text-align: center;
 }
 
 .generation-button{
     align-self: center;
     font-size: medium;
 }
+
+.add-modifier-button{
+    width: 20px;
+    height: 20px;
+    vertical-align: top;
+    filter: invert(12%) sepia(13%) saturate(21%) hue-rotate(345deg) brightness(100%) contrast(90%);
+}
+
+.checked-modifier{
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(323deg) brightness(112%) contrast(99%);
+}
+

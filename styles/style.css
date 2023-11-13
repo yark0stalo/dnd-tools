@@ -73,5 +73,6 @@ main > h1, main > p{
 }
 
 .contacts{
+    align-self: center;
     margin-right: 15px;
 }
