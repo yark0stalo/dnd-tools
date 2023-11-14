@@ -1,25 +1,22 @@
+let stats = {};
+let statContainers = document.querySelectorAll(".stat-container");
 let generateButton = document.querySelector(".generation-button");
+let rerollButtons = document.querySelectorAll(".reroll-dice-img");
+let statFields = document.querySelectorAll(".stat-field");
 
-let stats = document.querySelectorAll(".stat-field");
-
-generateButton.onclick = generateStats;
+initialize();
 
 function generateStats() {
-  for (let i = 0; i < stats.length; i++) {
-    let min = 6;
-    let sum = 0;
-    for (let j = 0; j < 4; j++) {
-      let val = generateStat();
-      if (val < min) {
-        min = val;
-      }
-      sum += val;
-    }
-    sum -= min;
-    stats[i].value = sum;
+  for (const stat in stats) {
+    stats[stat].generateStat();
   }
 }
 
-function generateStat() {
-  return Math.floor(Math.random() * 6 + 1);
+function initialize() {
+  for (let i = 0; i < statContainers.length; i++) {
+    let name = statContainers[i].getAttribute("name");
+    stats[name] = new Stat(statFields[i], rerollButtons[i]);
+  }
+
+  generateButton.onclick = generateStats;
 }

@@ -55,6 +55,12 @@
 }
 
 .checked-modifier{
-    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(323deg) brightness(112%) contrast(99%);
+    filter: invert(100%) 
+            sepia(100%) 
+            saturate(0%) 
+            hue-rotate(323deg) 
+            brightness(112%) 
+            contrast(99%) 
+            drop-shadow(0 0 5px #000);    
 }
 
