@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<svg width="300" height="300" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" version="1.1">
+ <!-- Created with SVG-edit - https://github.com/SVG-Edit/svgedit-->
+
+ <g class="layer">
+  <title>Layer 1</title>
+
+  <metadata id="svg_129">image/svg+xmlDes polyedriques2015-05-27Christophe Dang Ngoc Chanpolyhedral dice</metadata>
+  <g id="svg_115" stroke="#000000" transform="matrix(4.63632 0 0 4.63632 -510.645 -466.147)">
+   <rect fill="none" height="41.61" id="svg_122" stroke="#000000" stroke-dashoffset="0" stroke-linecap="round" stroke-miterlimit="4" width="41.61" x="111.68" y="118.05"/>
+   <path d="m152.85,118.15l20.13,-11.63" fill="none" id="svg_121" stroke="#000000" stroke-width="1px"/>
+   <path d="m111.94,117.97l20.13,-11.62" fill="none" id="svg_120" stroke="#000000" stroke-width="1px"/>
+   <path d="m153.37,159.4l20.13,-11.63" fill="none" id="svg_119" stroke="#000000" stroke-width="1px"/>
+   <path d="m131.92,106.35l41.6,0l0,41.61" fill="none" id="svg_118" stroke="#000000" stroke-dashoffset="0" stroke-linecap="round" stroke-miterlimit="4"/>
+   <path d="m173.52,147.96l-41.6,0l0,-41.61" fill="none" id="svg_117" stroke="#000000" stroke-dasharray="4, 2" stroke-dashoffset="0" stroke-linecap="round" stroke-miterlimit="4" stroke-width="0.5"/>
+   <path d="m111.76,159.76l20.13,-11.63" fill="none" id="svg_116" stroke="#000000" stroke-dasharray="4, 2" stroke-dashoffset="0" stroke-miterlimit="4" stroke-width="0.5"/>
+  </g>
+ </g>
+</svg>

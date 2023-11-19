@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DnD Tools</title>
     <link rel="stylesheet" href="styles/style.css" />
-    <link rel="stylesheet" href="styles/stats.css" />
+    <link rel="stylesheet" href="styles/dice-roller.css" />
   </head>
   <body>
     <header class="header">
@@ -20,7 +20,49 @@
     <main>
       <h1>Dice Roller</h1>
       <p>This tool can help you to roll different dices</p>
-      <ul class="stats-list"></ul>
+      <ul class="dice-list">
+        <li class="dice-button" data-value="20">
+          <img class="dice-image" src="img/icons/d20.svg" alt="dice 20" />
+          <span class="dice-button-text">d20</span>
+        </li>
+        <li class="dice-button" data-value="20">
+          <img class="dice-image" src="img/icons/d12.svg" alt="dice 20" />
+          <span class="dice-button-text">d12</span>
+        </li>
+        <li class="dice-button" data-value="20">
+          <img class="dice-image" src="img/icons/d10.svg" alt="dice 20" />
+          <span class="dice-button-text">d10</span>
+        </li>
+        <li class="dice-button" data-value="20">
+          <img class="dice-image" src="img/icons/d8.svg" alt="dice 20" />
+          <span class="dice-button-text">d8</span>
+        </li>
+        <li class="dice-button" data-value="20">
+          <img class="dice-image" src="img/icons/d6.svg" alt="dice 20" />
+          <span class="dice-button-text">d6</span>
+        </li>
+        <li class="dice-button" data-value="20">
+          <img class="dice-image" src="img/icons/d4.svg" alt="dice 20" />
+          <span class="dice-button-text">d4</span>
+        </li>
+        <li class="dice-button" data-value="20">
+          <img class="dice-image" src="img/icons/d100.svg" alt="dice 20" />
+          <span class="dice-button-text">d100</span>
+        </li>
+      </ul>
+      <div class="result-container">
+        <div class="dice-count-container">
+          <img class="add-dice" src="img/icons/plus.svg"></img>
+          <div class="dice-count-field">1d</div>
+          <img class="remove-dice" src="img/icons/minus.svg"></img>
+        </div>
+        <div class="result-field"><p>100</p></div>
+        <div class="modifier-count-container">
+          <img class="add-dice" src="img/icons/plus.svg"></img>
+          <div class="modifier-count-field">+0</div>
+          <img class="remove-dice" src="img/icons/minus.svg"></img>
+        </div>
+      </div>
     </main>
     <footer class="footer">
       <ul class="footer-navigation">
@@ -42,6 +84,5 @@
         </li>
       </ul>
     </footer>
-    <script src="scripts/stats.js"></script>
   </body>
 </html>
