@@ -25,42 +25,58 @@
           <img class="dice-image" src="img/icons/d20.svg" alt="dice 20" />
           <span class="dice-button-text">d20</span>
         </li>
-        <li class="dice-button" data-value="20">
+        <li class="dice-button" data-value="12">
           <img class="dice-image" src="img/icons/d12.svg" alt="dice 20" />
           <span class="dice-button-text">d12</span>
         </li>
-        <li class="dice-button" data-value="20">
+        <li class="dice-button" data-value="10">
           <img class="dice-image" src="img/icons/d10.svg" alt="dice 20" />
           <span class="dice-button-text">d10</span>
         </li>
-        <li class="dice-button" data-value="20">
+        <li class="dice-button" data-value="8">
           <img class="dice-image" src="img/icons/d8.svg" alt="dice 20" />
           <span class="dice-button-text">d8</span>
         </li>
-        <li class="dice-button" data-value="20">
+        <li class="dice-button" data-value="6">
           <img class="dice-image" src="img/icons/d6.svg" alt="dice 20" />
           <span class="dice-button-text">d6</span>
         </li>
-        <li class="dice-button" data-value="20">
+        <li class="dice-button" data-value="4">
           <img class="dice-image" src="img/icons/d4.svg" alt="dice 20" />
           <span class="dice-button-text">d4</span>
         </li>
-        <li class="dice-button" data-value="20">
+        <li class="dice-button" data-value="100">
           <img class="dice-image" src="img/icons/d100.svg" alt="dice 20" />
           <span class="dice-button-text">d100</span>
         </li>
       </ul>
       <div class="result-container">
         <div class="dice-count-container">
-          <img class="add-dice" src="img/icons/plus.svg"></img>
+          <img
+            class="dice-count-button"
+            data-value="1"
+            src="img/icons/plus.svg"
+          />
           <div class="dice-count-field">1d</div>
-          <img class="remove-dice" src="img/icons/minus.svg"></img>
+          <img
+            class="dice-count-button"
+            data-value="-1"
+            src="img/icons/minus.svg"
+          />
         </div>
-        <div class="result-field"><p>100</p></div>
+        <div class="result-field">0</div>
         <div class="modifier-count-container">
-          <img class="add-dice" src="img/icons/plus.svg"></img>
+          <img
+            class="modifier-count-button"
+            data-value="1"
+            src="img/icons/plus.svg"
+          />
           <div class="modifier-count-field">+0</div>
-          <img class="remove-dice" src="img/icons/minus.svg"></img>
+          <img
+            class="modifier-count-button"
+            data-value="-1"
+            src="img/icons/minus.svg"
+          />
         </div>
       </div>
     </main>
@@ -84,5 +100,6 @@
         </li>
       </ul>
     </footer>
+    <script src="scripts/dice-page/dice-page.js"></script>
   </body>
 </html>
