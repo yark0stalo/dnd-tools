@@ -1,0 +1,41 @@
+.categories-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 5vw;
+}
+
+.category{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20vmax;
+
+    background-color: #999;
+    border: 1px #000 solid;
+    border-radius: 5%;
+}
+
+.category-image{
+    width: 20vmax;
+    height: 20vmax;
+    object-fit: cover;
+    border-radius: 5%;
+}
+
+.category-button{
+    width: 95%;
+    background-color: #999;
+    border-radius: 5%;
+    margin-bottom: 1vh;
+}
+
+.category-button p{
+    font-size: 2em;
+    text-align: center;
+
+    margin: 0;
+    padding: 0;
+}
